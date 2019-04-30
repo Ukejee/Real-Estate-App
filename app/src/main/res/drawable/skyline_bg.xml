@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <color android:color="@color/white"></color>
+    </item>
+
+    <item
+        android:height="300dp"
+        android:drawable="@drawable/skyline"
+        android:gravity="fill_horizontal|bottom" />
+
+</layer-list>
