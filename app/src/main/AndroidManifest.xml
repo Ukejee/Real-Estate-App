@@ -9,10 +9,13 @@
         android:roundIcon="@drawable/wourton"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".LoginActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PropertySearchActivity" />
+        <activity android:name=".LoginAsActivity"
             android:theme="@style/AppTheme.Launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PropertySearchActivity"></activity>
     </application>
 
 </manifest>
