@@ -18,4 +18,10 @@ public class LoginAsActivity extends AppCompatActivity {
         Intent loginIntent = new Intent(this, LoginActivity.class);
         startActivity(loginIntent);
     }
+
+    public void onClickStaff(View view){
+
+        Intent propertyRequestIntent = new Intent(this, PropertyRequestActivity.class);
+        startActivity(propertyRequestIntent);
+    }
 }

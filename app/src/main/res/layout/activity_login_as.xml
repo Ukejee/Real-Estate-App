@@ -112,6 +112,8 @@
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
+                android:clickable="true"
+                android:onClick="onClickStaff"
                 android:layout_gravity="center_horizontal">
 
                 <ImageView
