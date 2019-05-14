@@ -7,4 +7,8 @@
     <string name="comment_caps">COMMENT</string>
     <string name="send">SEND</string>
     <string name="book_date_of_inspection">BOOK DATE OF INSPECTION</string>
+    <string name="title_activity_request_success">RequestSuccessActivity</string>
+    <string name="thank_you">THANK YOU</string>
+    <string name="for_your_request">FOR YOUR REQUEST</string>
+    <string name="continue_searching">Continue Searching</string>
 </resources>

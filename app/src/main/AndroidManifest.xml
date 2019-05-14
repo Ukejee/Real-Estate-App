@@ -12,7 +12,7 @@
         <activity android:name=".MainActivity" />
         <activity
             android:name=".LoginActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity android:name=".PropertySearchActivity" />
         <activity
             android:name=".LoginAsActivity"
@@ -23,7 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PropertyRequestActivity"></activity>
+        <activity android:name=".PropertyRequestActivity" />
+        <activity android:name=".RequestSuccessActivity"></activity>
     </application>
 
 </manifest>
